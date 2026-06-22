@@ -95,8 +95,9 @@ python manage.py runserver
 ---
 
 ## 📸 Face Recognition Flow
+
+## 👤 Register Face
 ```
-👤 Register Face
 • Capture multiple images using webcam
 • Save in:
 ```
