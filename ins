@@ -1,0 +1,61 @@
+## check python version
+```bash
+py -0
+```
+
+### Note: Must be Python 3.10
+
+---
+
+## Create Or Switch Django project
+```Bash
+py -3.10  -m venv venv
+```
+
+---
+
+venv\Scripts\activate is a command used on Windows to turn on a Python virtual environment.
+```Bash
+venv\Scripts\activate
+```
+
+## Install required libraries
+```Bash
+pip install django deepface numpy
+```
+
+## Install Opencv-python
+```
+pip install opencv-python==4.9.0.80
+```
+
+## Create Django project
+```bash
+django-admin startproject config .
+```
+
+## Create app
+```Bash
+python manage.py startapp users
+```
+
+## Register app in Django
+```bash
+config/settings.py
+```
+
+## Run server
+```Bash
+python manage.py runserver
+```
+## Install tensorflow 
+```Bash
+pip install tensorflow==2.15.0
+```
+
+## Install Keras
+```Bash
+pip install keras==2.15.0
+
+pip install tf-keras
+```
